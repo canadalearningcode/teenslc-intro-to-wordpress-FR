@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <title>Ladies Learning Code</title>
+  <link rel="stylesheet" href="framework/css/slideshow.css" data-noprefix>
+  <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700%7CQuicksand%7CPacifico%7COpen+Sans:400italic,400,300' rel='stylesheet' type='text/css' data-noprefix>
+  <link rel="stylesheet" href="framework/css/fonts.css" data-noprefix>
+  <link rel="stylesheet" href="framework/css/highlightjs/github.css" data-noprefix>
+  <link rel="stylesheet" href="framework/css/styles.css" data-noprefix>
+  <link rel="shortcut icon" href="framework/img/favicon.ico"><!-- Takes care of CSS3 prefixes --><script src="framework/scripts/prefixfree.min.js"></script>
+</head>
+
+<body data-duration="">
+    <main>
+        <section class="slide" data-markdown>
+          <script type="text/template">
+            #Premiers pas
+
+            Créez un compte [WordPress.com](http://wordpress.com) et suivez les instructions.
+            
+            * Lorsque vous créez un compte WordPress.com, votre nom de domaine sera suivi de « **.wordpress.com** » (p. ex. : ladieslearningcode.wordpress.com).
+            * Vous aurez le choix d'enregistrer un nom de domaine personnalisé. Cependant, vous pourrez en ajouter un plus tard.
+            * Si vous avez déjà un compte, vous n'avez pas besoin de vous inscrire à nouveau. Vous pouvez utiliser votre propre compte, mais vous pouvez aussi créer un compte pour tester.
+
+            **Attention** : Si vous avez déjà un compte et que vous voulez créer un autre blogue, WordPress.com ne vous permettra pas de créer plus d'un compte à l'aide du même nom d'utilisateur ou de la même adresse courriel.
+
+            **Choisissez un forfait**. Essayez le forfait gratuit si vous voulez seulement essayer pour l'instant. Vous pourrez toujours passer à un autre forfait plus tard et apprendre à auto-héberger votre site pour le personnaliser vous-même ! Cliquez [ici](https://learn.wordpress.com/get-started/#wpplan) pour en savoir plus sur les forfaits. 
+
+            Vous recevrez un courriel de confirmation dès que vous serez inscrite. C'est tout !
+            
+            [Retour aux diapositives](slides_fr.html#slide2)
+          </script>
+        </section>
+    
+  </main><!-- cls main section --><script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script src="framework/scripts/slideshow.js"></script><!-- Uncomment the plugins you need --><script src="framework/scripts/plugins/css-edit.js"></script>
+  <script src="framework/scripts/plugins/css-snippets.js"></script>
+  <script src="framework/scripts/plugins/css-controls.js"></script><!-- <script src="plugins/code-highlight.js"></script>--><script src="framework/scripts/plugins/markdown/marked.js"></script>
+  <script src="framework/scripts/plugins/markdown/markdown.js"></script>
+  <script src="framework/scripts/plugins/highlight/highlight-8.4.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <script src="framework/scripts/llc.js"></script>
+  <script>
+    var slideshow = new SlideShow();
+
+    // Grabs all the .snippet elements
+    var snippets = document.querySelectorAll('.snippet');
+    for(var i=0; i<snippets.length; i++) {
+      new CSSSnippet(snippets[i]);
+    }
+  </script>
+</body>
+</html>
