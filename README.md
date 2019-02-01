@@ -7,12 +7,12 @@ LE THÈME D'AVRIL EST : La santé et le bien-être
 
 Consultez la diapositive n° 4 pour obtenir des suggestions pour intégrer le thème aux projets des apprenants, s'ils souhaitent participer au thème.
 
-# Ladies Learning Code
+# Teens Learning Code
 ## Intro to Blogging & Wordpress
 
 ## Liens rapides
 
-Aperçu des diapositives : http://ladieslearningcode.github.io/llc-intro-to-wordpress-FR/slides_fr.html
+Aperçu des diapositives : http://ladieslearningcode.github.io/teenslc-intro-to-wordpress-FR/slides_fr.html
 
 ## Sources
 
